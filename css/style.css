@@ -1,0 +1,68 @@
+@charset "utf-8"; 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px; 
+}
+.logo img{
+    width: 100px;
+    height: 110px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    background-color: #005891;
+    color:white;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center; 
+    height: 60px;
+}
+.promotion img {
+    height: 550px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube h1 {
+    text-align : center;
+    font-weigt :bolder;
+    text-transform: upp
+}
+.youtube p {
+    text-align : center;
+    color: #555;
+}
+.cover_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.sns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+}
+.cs {
+    margin: 120px
+}
+.cs h2{ 
+    text-align:center
+}
+/* 1rem <--
+/* 선택자 문법
+선택자 {
+    속성: 값;
+}
+
+2.선택자 종류
+-전체 선택자 : *
+-태그 선택자 : p
+-클래스 선택자 : .item
+-아이디 선택자 : #box
+-그룹 선택자 : p, .item,#box
+*/ 
